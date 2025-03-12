@@ -1,15 +1,12 @@
 # Backend-service
-
 Simple Express.js Server
 Installation
 Make sure you have Node.js installed, then run the following command to install Express: npm i express
 Also make sure you have nodemon installed: npm i -g nodemon
 
-Code Explanation
+
 The following JavaScript code creates a web server using Express:
-
 import express from "express"; // Import Express framework
-
 const app = express(); // Initialize an Express application
 const port = 3000; // Define the port number
 
